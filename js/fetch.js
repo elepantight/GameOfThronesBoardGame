@@ -24,7 +24,7 @@ var characters = [
     },
     {
         "id" : 27,
-        "name" : 'Daenerys',
+        "name" : 'Daenerys Targaryan',
         'img': '/images/Daenerys_logo.svg'
     },
     {
@@ -34,17 +34,17 @@ var characters = [
     },
     {
         "id" : 38,
-        "name" : 'Aegon I',
+        "name" : 'Lady Melisandre',
         'img': '/images/melisandre_logo.svg'
     },
     {
         "id" : 39,
-        "name" : 'Lewyn Martel',
+        "name" : 'Night King',
         'img': '/images/NightKing_logo.svg'
     },
     {
         "id" : 40,
-        "name" : 'Lothor Brune',
+        "name" : 'Ramsay Bolton',
         'img': '/images/Ramsey_logo.svg'
     },
     {

@@ -1,0 +1,212 @@
+body {
+    background-color: black;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #212d3a;
+    color: white;
+    background-image: url("../images/bg-01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: yrsa, serif;
+    background-blend-mode: overlay;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1140px;
+  }
+  
+  nav {
+    background-color: #fff;
+    padding: 1rem 0rem;
+    margin-bottom: 3rem;
+  }
+  
+  aside {
+    width: 33%;
+    background-color: #1c282b;
+    padding: .5rem 2rem;
+    border-radius: 3px;
+    border: 1px dotted white;
+  }
+  
+  .main {
+    width: 66%;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  #char-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 1140px;
+    margin-bottom: 3rem;
+  }
+  
+  .char {
+    width: 18%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: #444444;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+  }
+  
+  .char img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  .char img:hover {
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+  }
+  
+  .game {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .game__box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 100%;
+    margin: 5px;
+    border-style: dashed;
+    background-position: center;
+    background-size: 54px 54px;
+    background-repeat: no-repeat;
+  }
+  
+  .game__box:nth-child(10) {
+    background-image: url("/images/BlackHole_500px.png");
+  }
+  
+  .game__box:nth-child(14) {
+    background-image: url("/images/BlackHole_500px.png");
+  }
+  
+  .game__box:nth-child(18) {
+    background-image: url("/images/BlackHole_500px.png");
+  }
+  
+  .game__box:nth-child(23) {
+    background-image: url("/images/BlackHole_500px.png");
+  }
+  
+  .game__box:nth-child(28) {
+    background-image: url("/images/BlackHole_500px.png");
+  }
+  
+  .game__box:last-child {
+    background-color: gold;
+  }
+  
+  .player {
+    border-radius: 100%;
+    z-index: 100000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+  }
+  
+  button {
+    margin-top: 2rem;
+    padding: 2px;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #979797;
+    cursor: pointer;
+  }
+  
+  #message-holder {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+  
+  .message {
+    position: relative;
+    margin-bottom: 2rem;
+    background-color: #014858;
+    border-radius: 3px;
+    width: 400px;
+    padding: 2rem;
+    border: 2px solid #313131;
+    z-index: 10000000;
+    margin-right: 20px;
+  }
+  
+  .winner {
+    background-color: #fff;
+    padding: 40px;
+    color: black;
+    text-align: center;
+  }
+  
+  .winner a {
+    color: black;
+  }
+
+  /*# sourceMappingURL=main.css.map */
