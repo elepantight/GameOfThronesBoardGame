@@ -8,12 +8,12 @@ var characters = [
         'img': '/images/arya_logo.svg'
     },
     {
-        "id" : 210,
+        "id" : 208,
         "name" : 'Brandon Stark',
         'img': '/images/Bran_logo.svg'
     },
     {
-        "id" : 13,
+        "id" : 238,
         "name" : 'Cersei Lannister',
         'img': '/images/Cersei_logo.svg'
     },
@@ -23,7 +23,7 @@ var characters = [
         'img': '/images/ChildrenOTF.svg'
     },
     {
-        "id" : 27,
+        "id" : 271,
         "name" : 'Daenerys Targaryan',
         'img': '/images/Daenerys_logo.svg'
     },
@@ -48,8 +48,8 @@ var characters = [
         'img': '/images/Ramsey_logo.svg'
     },
     {
-        "id" : 235,
-        "name" : 'Cerenna Lannister',
+        "id" : 1346,
+        "name" : 'Khal Drogo',
         'img': '/images/khal_logo.svg'
     }
 ];
