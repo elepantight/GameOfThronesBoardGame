@@ -12,7 +12,7 @@ body {
   body {
     background-color: #212d3a;
     color: white;
-    background-image: url("../images/backgroundStartPage.svg");
+    background-image: url("../images/backgroundStartPage.svg") ;
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 18px;
@@ -29,9 +29,11 @@ body {
             justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 100px;
     padding-right: 15px;
     padding-left: 15px;
     max-width: 1140px;
+    font-family: 'Quicksand', sans-serif;
     
   }
   
@@ -48,6 +50,7 @@ body {
     padding: .5rem 2rem;
     border-radius: 3px;
     box-shadow: 5px 5px 5px black;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .main {
@@ -100,12 +103,13 @@ body {
        object-fit: cover;
     -webkit-transition: 0.2s;
     transition: 0.2s;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
     
   }
   
   .char img:hover {
-    -webkit-filter: grayscale(1);
-            filter: grayscale(1);
+            filter: none;
   }
   
   .game {
@@ -167,6 +171,7 @@ body {
   }
   
   button {
+    font-family: 'Quicksand', sans-serif;
     margin-top: 2rem;
     padding: 2px;
     margin-bottom: 2rem;

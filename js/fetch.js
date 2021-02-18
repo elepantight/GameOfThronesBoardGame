@@ -66,7 +66,7 @@ function renderSelection() {
         ele.setAttribute('class', 'char');
         let charImg = document.createElement('img');
         charImg.setAttribute('src', char.img);
-        ele.innerHTML = `<b>${char.name}</b><br />Select Character`;
+        ele.innerHTML = `<b>${char.name}`;
         ele.addEventListener('click', function() {
             fetchAPI(char.id);
             getLocalChar(char);
