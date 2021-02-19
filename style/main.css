@@ -84,6 +84,7 @@ body {
   }
   
   .char {
+    font-family: 'Quicksand', sans-serif;
     width: 18%;
     margin-bottom: 1rem;
     padding: 1rem;
