@@ -87,11 +87,11 @@ function movePlayer(activePlayer, randomNum) {
       break;
       case 14:
         activePlayer.position = activePlayer.position -5;
-        message(`${activePlayer.name} goes 4 steps back`);
+        message(`${activePlayer.name} goes 5 steps back`);
       break;
       case 18:
         activePlayer.position = activePlayer.position - 7;
-        message(`${activePlayer.name} goes 8 steps back`);
+        message(`${activePlayer.name} goes 7 steps back`);
       break;
       case 23:
           activePlayer.position = activePlayer.position - 2;
