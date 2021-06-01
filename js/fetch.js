@@ -70,7 +70,7 @@ function renderSelection() {
         ele.addEventListener('click', function() {
             fetchAPI(char.id);
             getLocalChar(char);
-            this.style.backgroundColor = 'black';
+            this.style.backgroundColor = '#232626';
         });
         charContainer.appendChild(ele);
         ele.appendChild(charImg);

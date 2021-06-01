@@ -137,8 +137,8 @@ function renderGame() {
 
 
 function showPosition() {
-  player1progress.innerHTML = `Player 1 position: ${player1.position} / 30`;
-  player2progress.innerHTML = `Player 2 position: ${player2.position} / 30`;
+  player1progress.innerHTML = `Player1 position: ${player1.position} of 30`;
+  player2progress.innerHTML = `Player2 position: ${player2.position} of 30`;
 }
 
 // Function to display messages.
